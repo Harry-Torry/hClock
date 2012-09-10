@@ -25,6 +25,7 @@ public class HClock {
         f.setUndecorated(true);
         f.setVisible(true);
         f.setBounds(0, 0, 200, 75);
+        f.setAlwaysOnTop(true);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         timeLabel = new JLabel("Something went wrong!", SwingConstants.CENTER);
